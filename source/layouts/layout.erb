@@ -2,7 +2,7 @@
 <html lang="en" class="govuk-template">
   <head>
     <meta charset="utf-8">
-    <title><%= current_page.data.title && "#{current_page.data.title} – " %>GOV.UK Product Pages</title>
+    <title><%= current_page.data.title && "#{current_page.data.title}"%></title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -45,10 +45,10 @@
                 </g>
               </svg>
             <span class="govuk-header__logotype-text">
-                Digital Shared Services
+                NICS
               </span>
             <span class="govuk-header__product-name">
-                Product Name
+                Architecture Catalogue
             </span>
           </a>
         </div>
@@ -59,9 +59,10 @@
               <%
                 {
                   'About' => '/',
-                  'Get Started' => '/supplementary/',          
-                  'Documentation' => '#',                 
-                  'Support' => '/support/'
+                  'Get Started' => '/get-started/',
+                  'Features' => '/features/',
+                  'Support' => '/support/',
+                  'Sign in' => 'https://architecture-catalogue.staging.ea.digitalni.gov.uk'
                 }.each do |title, url|
               %>
                 <li class="govuk-header__navigation-item<% if url == current_page.url %> govuk-header__navigation-item--active" aria-current="page<% end %>">
@@ -106,6 +107,6 @@
           </div>
         </div>
       </div>
-    </footer>   
+    </footer>
   </body>
 </html>

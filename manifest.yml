@@ -1,6 +1,6 @@
 ---
 applications:
-- name: dss-product-pages
+- name: product-page-architecture-catalogue
   memory: 64M
   path: ./build
   buildpack: staticfile_buildpack

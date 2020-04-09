@@ -1,0 +1,100 @@
+---
+title: Features - NICS Architecture Catalogue
+---
+
+
+<div class="govuk-width-container">
+  <div class="govuk-breadcrumbs">
+    <ol class="govuk-breadcrumbs__list">
+      <li class="govuk-breadcrumbs__list-item">
+        <a class="govuk-breadcrumbs__link" href="/">Home</a>
+      </li>
+      <li class="govuk-breadcrumbs__list-item" aria-current="page">
+        <a class="govuk-breadcrumbs__link" href="#main-content">Features</a>
+      </li>
+    </ol>
+  </div>
+</div>
+
+<main class="govuk-main-wrapper" id="main-content" role="main">
+  <div class="govuk-width-container">
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-one-third">
+        <nav class="sub-navigation">
+          <ol itemscope itemtype="http://schema.org/ItemList">
+            <li class="sub-navigation__item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+              <a class="govuk-link" href="/features" itemprop="item"><span itemprop="name">Features</span></a>
+            </li>
+            <li class="sub-navigation__item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+              <a class="govuk-link" href="/roadmap" itemprop="item"><span itemprop="name">Roadmap</span></a>
+            </li>
+          </ol>
+        </nav>
+      </div>
+
+      <div class="govuk-grid-column-two-thirds">
+        <h1 class="govuk-heading-l">Features</h1>
+        <p class="govuk-body">The architecture catalogue provides a means of recording, updating and sharing information about the technology components used across the NICS to deliver deliver digital solutions and services. The catalogue provides the following functions:</p>
+        <ul class="govuk-list govuk-list--bullet">
+          <li><a class="govuk-link" href="#smart-search">Smart search</a></li>
+          <li><a class="govuk-link" href="#browse-catalogue">Browse catalogue</a></li>
+          <li><a class="govuk-link" href="#crud-entries">Add, update and remove catalogue entries</a></li>
+          <li><a class="govuk-link" href="#link-entries">Link catalogue entries</a></li>
+          <li><a class="govuk-link" href="#roles-and-permissions">Change user roles and permissions</a></li>
+        </ul>
+
+        <h3 class="govuk-heading-m">Roles and administration</h3>
+        <p class="govuk-body">There are three roles associated with the following permissions:</p>
+        <table class="govuk-table">
+            <tr class="govuk-table__row">
+                <th scope="col" class="govuk-table__header">Role</th>
+                <th scope="col" class="govuk-table__header">View entries</th>
+                <th scope="col" class="govuk-table__header">Add entry</th>
+                <th scope="col" class="govuk-table__header">Update entry</th>
+                <th scope="col" class="govuk-table__header">Remove entry</th>
+                <th scope="col" class="govuk-table__header">Change user roles</th>
+            </tr>
+            <tr class="govuk-table__row">
+                <td scope="row" class="govuk-table__header">Reader</td>
+                <td class="govuk-table__cell">X</td>
+                <td class="govuk-table__cell"></td>
+                <td class="govuk-table__cell"></td>
+                <td class="govuk-table__cell"></td>
+                <td class="govuk-table__cell"></td>
+            </tr>
+            <tr class="govuk-table__row">
+                <td scope="row" class="govuk-table__header">Contributor</td>
+                <td class="govuk-table__cell">X</td>
+                <td class="govuk-table__cell">X</td>
+                <td class="govuk-table__cell">X</td>
+                <td class="govuk-table__cell">X</td>
+                <td class="govuk-table__cell"></td>
+            </tr>
+            <tr class="govuk-table__row">
+                <td scope="row" class="govuk-table__header">Administrator</td>
+                <td class="govuk-table__cell">X</td>
+                <td class="govuk-table__cell">X</td>
+                <td class="govuk-table__cell">X</td>
+                <td class="govuk-table__cell">X</td>
+                <td class="govuk-table__cell">X</td>
+            </tr>
+        </table>
+
+        <h2 class="govuk-heading-m" id="smart-search">Smart search</h2>
+        <p class="govuk-body">You can search the catalogue by entering a search word or phrase. You must enter at least three characters and your search will try to find entries that have the word or phrase you supplied in any of the enntry data items.</p>
+
+        <h2 class="govuk-heading-m" id="browse-catalogue">Browse catalogue</h2>
+        <p class="govuk-body">You can browse the entire catalogue and apply filters on either <strong>status</strong> and <strong>category/sub-category</strong> to produced a more specific list of entries. Detailed information can be found on each entry by following the view link.</p>
+
+        <h2 class="govuk-heading-m" id="crud-entries">Add, update and remove catalogue entries</h2>
+        <p class="govuk-body">If you are a contributor you can add, update and remove catalogue entries.</p>
+
+        <h2 class="govuk-heading-m" id="link-entries">Link catalogue entries</h2>
+        <p class="govuk-body">Entries can be linked to others entries via a 'depends on' relationship. When a entry is viewed you will see it's dependencies and what other entries are dependent upon it.</p>
+
+        <h2 class="govuk-heading-m" id=>Change user roles and permissions</h2>
+        <p class="govuk-body">Administrators can change user roles and assign other administrators.</p>
+      </div>
+    </div>
+  </div>
+</main>
